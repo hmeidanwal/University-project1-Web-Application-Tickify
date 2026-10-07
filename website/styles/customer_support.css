@@ -1,0 +1,38 @@
+
+.input {
+    display: grid;
+    background-color: cadetblue;
+    border-radius: 10px;
+    max-width: 400px;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+
+.problem-input, .email-input {
+    padding: 9px;
+    margin: 5px;
+}
+
+
+.problem-input {
+    height: 100px;
+    resize: none;
+}
+
+button {
+    grid-column: span 2;
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: black;
+    color: lime;
+    border-radius: 5px;
+    cursor: pointer; 
+    justify-self: center;
+}
+
+button:hover {
+    background-color: lime;
+    color: black;
+}

@@ -1,0 +1,50 @@
+
+
+header {
+    text-align: center;
+   }
+
+   h1 {
+    display: inline-block; 
+    background-color: cadetblue; 
+    padding: 20px; 
+    font-size: 50px; 
+    color: #39FF14; 
+    border-radius: 8px;
+    margin: auto;
+   }
+
+
+
+    
+.aboutus {
+    background-color: cadetblue;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.aboutuslink {
+text-decoration: none;
+color: pink;
+}
+
+.image1 {
+    grid-column: 4; /* Place in the 4th column */
+    grid-row: 1; /* First row */
+    max-width: 100%; /* Ensure it stays within the grid */
+    height: auto;
+}
+
+.image2 {
+    grid-column: 8; /* Place in the 4th column */
+    grid-row: 2; /* First row */
+    max-width: 100%; /* Ensure it stays within the grid */
+    height: auto;
+}
+
+
+
+
+
+  

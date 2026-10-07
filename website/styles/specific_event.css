@@ -1,0 +1,42 @@
+   .info {
+    
+   background-color: cadetblue;
+   border-radius: 10px;
+   padding: 10px;
+  color: white;
+}
+
+.image-placeholder{
+  background-color: white;
+}
+  
+
+.description {
+  
+  background-color: cadetblue;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+}
+
+.button-row {
+  display: grid;
+  place-items: center; /* Centers both horizontally and vertically */
+  
+}
+.buy {
+  /* Add any button-specific styling here */
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: black;
+  color: lime;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.buy:hover {
+  background-color: lime;
+  color: black;
+}
+
+
+ 
